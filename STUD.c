@@ -16,9 +16,9 @@ struct stud
   {
    printf("Name     : ");
    scanf("%s",s[i].name);
-   printf("Roll No. : ");
+   printf("Roll No : ");
    scanf("%d",&s[i].roll);
-   printf("Marks :- ");
+   printf("Marks :: ");
 
    for(j=0;j<3;j++)
    {
@@ -35,7 +35,7 @@ struct stud
   int disp(int n)
   {
    int x,i,j,k,f,av[100],z;
-   printf(".....................STUDENT DETAILS.....................\n\n\n");
+   printf(".......................STUDENT DETAILS.......................\n\n\n");
    printf("\n1.Single student\n2.All\n3.Exit\n\n  Make your selection(1-3) : ");
    scanf("%d",&x);
    
