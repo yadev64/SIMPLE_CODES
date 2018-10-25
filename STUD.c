@@ -90,7 +90,7 @@ struct stud
     }
   else if(x==3)
   {
-   printf("Exiting>>");
+   printf("Exiting>>--");
   }
  }
 
@@ -102,7 +102,7 @@ struct stud
   {
    
    printf(".....................STUDENT DETAILS.....................\n\n\n");
-   printf("\n1.Enter Data\n2.View Details\n3.Exit\n\n  Make your selection(1-3) : ");
+   printf("\n1.Enter Data\n2.View Details\n3.Exit\n\n\n  Make your selection(1-3) : ");
    scanf("%d",&sl);
    
    if(sl==1)
@@ -127,7 +127,7 @@ struct stud
    
   else
    {
-    printf("Try Again :) ");
+    printf("Try Again! ");
     
    }
   }
